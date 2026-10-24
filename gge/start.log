@@ -1,0 +1,20 @@
+Consol let's go 
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import service
+  File "C:\Users\svoka\PycharmProjects\territoria_svoih_test\gge\service.py", line 6, in <module>
+    from sqlalchemy import delete, func, select
+ModuleNotFoundError: No module named 'sqlalchemy'
+Collecting SQLAlchemy==2.0.54 (from -r requirements.txt (line 1))
+  Downloading sqlalchemy-2.0.54-cp313-cp313-win_amd64.whl.metadata (9.9 kB)
+Collecting greenlet>=1 (from SQLAlchemy==2.0.54->-r requirements.txt (line 1))
+  Downloading greenlet-3.5.6-cp313-cp313-win_amd64.whl.metadata (3.9 kB)
+Collecting typing-extensions>=4.6.0 (from SQLAlchemy==2.0.54->-r requirements.txt (line 1))
+  Using cached typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+Downloading sqlalchemy-2.0.54-cp313-cp313-win_amd64.whl (2.2 MB)
+   ---------------------------------------- 2.2/2.2 MB 7.1 MB/s eta 0:00:00
+Downloading greenlet-3.5.6-cp313-cp313-win_amd64.whl (324 kB)
+Using cached typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+Installing collected packages: typing-extensions, greenlet, SQLAlchemy
+
+Successfully installed SQLAlchemy-2.0.54 greenlet-3.5.6 typing-extensions-4.16.0
