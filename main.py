@@ -1,5 +1,9 @@
+# ВАЖНО!! Перед запуском файла найтиде в репозитории пустой файл и пропишите:
+#from PyQt5.QtCore import QLibraryInfo
+#print(QLibraryInfo.location(QLibraryInfo.PluginsPath))
+# это даст вам путь, который нужно вставить в импорт нижн (извините если ошибки, поздно это редактирую)
 import os
-os.environ["QT_QPA_PLATFORM_PLUGIN_PATH"] = r"C:/Users/диджей арбуз/PycharmProject/territoria/.venv/Lib/site-packages/PyQt5/Qt5/plugins"
+os.environ["QT_QPA_PLATFORM_PLUGIN_PATH"] = r"вставте сюда путь к файлу"
 import sys
 import faulthandler
 faulthandler.enable()
@@ -8,7 +12,7 @@ from PyQt5.QtGui import QFont
 from PyQt5.QtWidgets import (
     QApplication,
     QMainWindow,
-    QWidget,
+    QWidget,g
     QFrame,
     QLabel,
     QPushButton,
